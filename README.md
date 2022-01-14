@@ -15,3 +15,9 @@ async with avertica.connect(**conn_info) as conn:
         await cur.execute(query)
         rows = cur.fetchall()
 ```
+
+## Installation
+
+```
+pip install git+https://github.com/fomalhaut88/avertica.git
+```
